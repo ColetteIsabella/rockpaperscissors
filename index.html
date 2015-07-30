@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Rock, Paper, Scissors, Lizard, Spock</title>
+
+  <link rel="stylesheet" href="index.css">
+  <link href='http://fonts.googleapis.com/css?family=IM+Fell+Great+Primer:400,400italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<header>
+  <h1>Let Us Begin.</h1>
+  <h2>Will you Choose Rock, Paper, Scissors, Lizard or Spock?</h2>
+</header>
+<div id="results" class="clear">
+  <div class="cScore">
+    <h4>COMPUTER SCORE</h4>
+    <div id="computerScore"></div>
+  </div>
+  <div class="uScore">
+    <h4>YOUR SCORE</h4>
+    <div id="userScore"></div>
+  </div>
+</div>
+<form id="buttons" input type="button">
+  <input type="button" value="rock" id="rock">
+  <input type= "button" value= "paper" id="paper">
+  <input type="button" value ="scissors" id="scissors">
+  <input type= "button" id= "lizard" value="lizard">
+  <input type= "button" id="spock" value="spock">
+</form>
+<div id="display" class="clear">
+  <div class = "cClass">
+    <h3>Computer says:</h3>
+    <p id="computerAnswer"></p>
+  </div>
+  <div class="uClass">
+    <h3>You say:</h3>
+    <p id="userAnswer"></p>
+  </div>
+</div>
+
+<div id="thisRound"></div>
+
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
